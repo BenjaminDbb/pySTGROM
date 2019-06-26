@@ -1,4 +1,4 @@
-# Reduced-order surrogate models for scalar-tensor gravity in the strong field1and applications to binary pulsars and GW170817
+# Reduced-order surrogate models for scalar-tensor gravity in the strong field and applications to binary pulsars and GW170817
 
 **Junjie Zhao<sup>1</sup>, Lijing Shao<sup>2,3</sup>, Zhoujian Cao<sup>4</sup>, Bo-Qiang Ma<sup>1,5,6</sup>**
 
