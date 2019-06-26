@@ -38,6 +38,13 @@ essential speed and accuracy.
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 United States License](http://creativecommons.org/licenses/by-sa/3.0/us/).
 
+## Packages required
+numpy
+matplotlib
+
+## Usage
+Plz refer to [Example](https://github.com/BenjaminDbb/pySTGROM/blob/master/Example.ipynb)
+
 ## Introduction
 
 This notebook is a companion to the paper posted at [arxiv:19XX.XXXXX](https://arxiv.org/abs/19XX.XXXXX). It contains three ROMs for each EOS. 
