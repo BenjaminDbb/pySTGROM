@@ -87,7 +87,7 @@ class LoadModel:
             values =  np.dot(fit_evals, self.eim_B[key])
             bspl =  splrep(self.e_cs, values)
             return splev(val_ec, bspl)
-
+        
         pool = [[logAlpha], [beta]]
         if logAlpha < self.logAlphas[0] or logAlpha > self.logAlphas[-1] \
                     or beta < self.betas[0] or beta > self.betas[-1]:
