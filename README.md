@@ -90,3 +90,18 @@ and
       SLACcitation   = "%%CITATION = ARXIV:1308.3565;%%"
 }
 ```
+## Acknowledgements
+We are grateful to Bin Hu and Michael Kramer for comments.  We thank Norbert Wex
+for stimulating discussions and carefully reading the manuscript.  
+
+## Funding
+This work was
+supported by the Young Elite Scientists Sponsorship Program by the China
+Association for Science and Technology (2018QNRC001), and was partially
+supported by the National Natural Science Foundation of China (11721303,
+11475006, 11690023, 11622546), the Strategic Priority Research Program of the
+Chinese Academy of Sciences through the grant No. XDB23010200, the European
+Research Council (ERC) for the ERC Synergy Grant BlackHoleCam under Contract No.
+610058, and the High-performance Computing Platform of Peking University.  Z.C.
+was supported by the ``Fundamental Research Funds for the Central
+Universities''.
