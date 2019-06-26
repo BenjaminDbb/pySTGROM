@@ -19,7 +19,7 @@ We investigate the scalar-tensor gravity of Damour and Esposito-Farèse (DEF),
 which predicts non-trivial phenomena in the nonperturbative strong-field regime
 for neutron stars (NSs). Instead of solving the modified
 Tolman-Oppenheimer-Volkoff equations, we construct reduced-order surrogate
-models, coded in the [pySTGROM](https://github.com/BenjaminDbb/pySTGROM) package, to predict the relations of a NS
+models, coded in the [pySTGROM](https://github.com/BenjaminDbb/pySTGROM#pystgrom-for-the-def-theory) package, to predict the relations of a NS
 radius, mass, and effective scalar coupling to its central density. Our models
 are accurate at ~1% level and speed up large-scale calculations by two
 orders of magnitude. As an application, we use pySTGROM and Markov-chain
