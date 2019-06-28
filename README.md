@@ -1,18 +1,7 @@
 # Reduced-order surrogate models for scalar-tensor gravity in the strong field and applications to binary pulsars and GW170817
 
-**Junjie Zhao<sup>1</sup>, Lijing Shao<sup>2,3</sup>, Zhoujian Cao<sup>4</sup>, Bo-Qiang Ma<sup>1,5,6</sup>**
+**Junjie Zhao, Lijing Shao, Zhoujian Cao, Bo-Qiang Ma**
 
-**<sup>1</sup>School of Physics and State Key Laboratory of Nuclear Physics and Technology, Peking University, Beijing 100871, China**
-
-**<sup>2</sup>Kavli Institute for Astronomy and Astrophysics, Peking University, Beijing 100871, China**
-
-**<sup>3</sup>Max-Planck-Institut für Radioastronomie, Auf dem Hügel 69, D-53121 Bonn, Germany**
-
-**<sup>4</sup>Department of Astronomy, Beijing Normal University, Beijing 100875, China**
-
-**<sup>5</sup>Collaborative Innovation Center of Quantum Matter, Beijing, China**
-
-**<sup>6</sup>Center for High Energy Physics, Peking University, Beijing 100871, China**
 
 ## Abstract
 We investigate the scalar-tensor gravity of Damour and Esposito-Farèse (DEF),
