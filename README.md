@@ -21,32 +21,59 @@ essential speed and accuracy.
 
 # pySTGROM (for the DEF theory)
 
-## License
-
-![Creative Commons License](https://i.creativecommons.org/l/by-sa/3.0/us/88x31.png "Creative Commons License")
-
-This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 United States License](http://creativecommons.org/licenses/by-sa/3.0/us/).
-
 ## Packages required
+
 numpy
-matplotlib
+
+scipy
+
+h5py
 
 ## Usage
-Plz refer to [Example](https://github.com/BenjaminDbb/pySTGROM/blob/master/Example.ipynb)
+
+The ROMs in the those range:
+log10Alpha0 in **[-5.3, -2.5]**
+beta0 in **[-4.8, -4.0]**
+
+For now, we have built those ROMs for 9 EOSs. 
+
+EOSs AP3, AP4, ENG, H4, MPA1, PAL1, SLy4, WFF1, and WFF2.
+
+The simply usage:
+```
+from stgrom import LoadModel
+
+log10Alpha0 = -5.0
+beta0 = -4.5
+
+mod4EOS = LoadModel(EOS_name)
+mass, radius, alphaA = mod4EOS(log10Alpha0, beta0, mod4EOS.e_cs)
+```
+More, refer to [Example](https://github.com/BenjaminDbb/pySTGROM/blob/master/Example.ipynb).
 
 ## Introduction
 
-This notebook is a companion to the paper posted at [arxiv:19XX.XXXXX](https://arxiv.org/abs/19XX.XXXXX). It contains three ROMs for each EOS. 
+This notebook is a companion to the paper posted at [arxiv:1907.00780](https://arxiv.org/abs/1907.00780). It contains three ROMs for each EOS. 
 
 We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
 ```
-@article{Zhao:2019xx,
-XXX
-XXX
-XXX
+@article{Zhao:2019,
+      author         = "Zhao, Junjie and Shao, Lijing and Cao, Zhoujian 
+                        and Ma, Bo-Qiang",
+      title          = "{Reduced-order surrogate models for scalar-tensor 
+                        gravity in the strong field and applications to 
+                        binary pulsars and GW170817}",
+      year           = "2019",
+      eprint         = "1907.00780",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1907.00780;%%"
 }
 ```
-and our works are based on those papers:
+Our paper are based on those papers:
+
+In order to solve the modified Tolman-Oppenheimer-Volkoff (TOV) eqautions for neutron star, we use the solver for the DEF theory from **Shao:2017gwu** and make it more efficient with parallel computing.
+
 ```
 @article{Shao:2017gwu,
       author         = "Shao, Lijing and Sennett, Noah and Buonanno, Alessandra
@@ -67,7 +94,8 @@ and our works are based on those papers:
       SLACcitation   = "%%CITATION = ARXIV:1704.07561;%%"
 }
 ```
-and
+The ROMs are based on the paper **Field:2013cfa**. 
+
 ```
 @article{Field:2013cfa,
       author         = "Field, Scott E. and Galley, Chad R. and Hesthaven, Jan S.
@@ -87,17 +115,19 @@ and
 }
 ```
 ## Acknowledgements
-We are grateful to Bin Hu and Michael Kramer for comments.  We thank Norbert Wex
-for stimulating discussions and carefully reading the manuscript.  
+We are grateful to Bin Hu, Michael Kramer, and Masaru
+Shibata for comments. We thank Norbert Wex for stimulating
+discussions and carefully reading the manuscript. 
 
 ## Funding
-This work was
-supported by the Young Elite Scientists Sponsorship Program by the China
-Association for Science and Technology (2018QNRC001), and was partially
-supported by the National Natural Science Foundation of China (11721303,
-11475006, 11690023, 11622546), the Strategic Priority Research Program of the
-Chinese Academy of Sciences through the grant No. XDB23010200, the European
-Research Council (ERC) for the ERC Synergy Grant BlackHoleCam under Contract No.
-610058, and the High-performance Computing Platform of Peking University.  Z.C.
-was supported by the ``Fundamental Research Funds for the Central
-Universities''.
+This work was supported by the Young Elite Scientists Sponsorship 
+Program by the China Association for Science and Technology
+(2018QNRC001), and was partially supported by the National
+Natural Science Foundation of China (11721303, 11475006,
+11690023, 11622546), the Strategic Priority Research Program of the 
+Chinese Academy of Sciences through the grant
+No. XDB23010200, the European Research Council (ERC)
+for the ERC Synergy Grant BlackHoleCam under Contract
+No. 610058, and the High-performance Computing Platform
+of Peking University. Z.C. was supported by the "Fundamental Research 
+Funds for the Central Universities".
