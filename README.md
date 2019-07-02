@@ -61,12 +61,13 @@ This notebook is a companion to the paper posted at [arxiv:1907.00780](https://a
 
 We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
 ```
-@article{Zhao:2019,
-      author         = "Zhao, Junjie and Shao, Lijing and Cao, Zhoujian 
-                        and Ma, Bo-Qiang",
-      title          = "{Reduced-order surrogate models for scalar-tensor 
-                        gravity in the strong field and applications to 
-                        binary pulsars and GW170817}",
+@article{,
+      key            = "1742146",
+      author         = "Zhao, Junjie and Shao, Lijing and Cao, Zhoujian and Ma,
+                        Bo-Qiang",
+      title          = "{Reduced-order surrogate models for scalar-tensor gravity
+                        in the strong field and applications to binary pulsars and
+                        GW170817}",
       year           = "2019",
       eprint         = "1907.00780",
       archivePrefix  = "arXiv",
