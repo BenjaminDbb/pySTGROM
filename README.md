@@ -61,8 +61,7 @@ This notebook is a companion to the paper posted at [arxiv:1907.00780](https://a
 
 We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
 ```
-@article{,
-      key            = "1742146",
+@article{Zhao:2019suc,
       author         = "Zhao, Junjie and Shao, Lijing and Cao, Zhoujian and Ma,
                         Bo-Qiang",
       title          = "{Reduced-order surrogate models for scalar-tensor gravity
