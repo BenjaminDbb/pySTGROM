@@ -67,7 +67,11 @@ We encourage use of these data in derivative works. If you use the material prov
       title          = "{Reduced-order surrogate models for scalar-tensor gravity
                         in the strong field and applications to binary pulsars and
                         GW170817}",
+      journal        = "Phys. Rev.",
+      volume         = "D100",
       year           = "2019",
+      pages          = "064034",
+      doi            = "10.1103/PhysRevD.100.064034",
       eprint         = "1907.00780",
       archivePrefix  = "arXiv",
       primaryClass   = "gr-qc",
