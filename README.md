@@ -37,15 +37,15 @@ log10Alpha0 in **[-5.3, -2.5]**
 
 beta0 in **[-4.8, -4.0]**
 
-For now, we have built those ROMs for 9 EOSs. 
+For now, we have built those ROMs for 16 EOSs. 
 
-EOSs AP3, AP4, ENG, H4, MPA1, PAL1, SLy4, WFF1, and WFF2.
+EOSs AP3, AP4, BL_EOS, BSk20, BSk21, BSk22, BSk25, ENG, H4, MPA1, PAL1, SLy4, SLy9, SLy230a, WFF1, and WFF2.
 
 The simply usage:
 ```python
 from stgrom import LoadModel
 
-EOS_name = 'AP4' # EOSs AP3, AP4, ENG, H4, MPA1, PAL1, SLy4, WFF1, and WFF2.
+EOS_name = 'AP4' # EOSs AP3, AP4, BL_EOS, BSk20, BSk21, BSk22, BSk25, ENG, H4, MPA1, PAL1, SLy4, SLy9, SLy230a, WFF1, and WFF2.
 
 log10Alpha0 = -5.0
 beta0 = -4.5
